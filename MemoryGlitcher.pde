@@ -1,6 +1,5 @@
 
 import ddf.minim.*;
-PImage bg;
 
 Minim minim;
 AudioPlayer player;
@@ -14,8 +13,7 @@ int k;
 
 void setup() {
   size(800, 618);
-  bg = loadImage("data/back1.jpg");
-   background(0);
+  background(0);
   textSize(32);
   text("FRAGMENTING>>>", width/2-120, 120, 100); 
   textSize(15);
