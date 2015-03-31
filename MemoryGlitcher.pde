@@ -36,14 +36,6 @@ void playAudio() {
 }
 
 void draw() {
-//  background(0);
-//  textSize(32);
-//  text("Fragmenting", width/2-90, 100, 100); 
-//  textSize(15);
-//  text("File Directory: /Jiwon/memory/john/voice/call_my_name.wav", 30, 30, 100); 
-
-  //println(hex(()raw));
-  //ellipse(width/2,height/2+40,200,200);
   if (mouseX > width/2-100 && mouseX < width/2+100 && 
       mouseY > height/2-100 && mouseY < height/2+100) {
     overBox = true;  
